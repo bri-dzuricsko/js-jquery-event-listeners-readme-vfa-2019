@@ -19,7 +19,7 @@ function pressIt() {
 }
 
 function submitIt () {
-  $('img').submit('load',function () {
+  $('form').submit('load',function () {
     return('Your form is going to be submitted now.');
   });
 }
