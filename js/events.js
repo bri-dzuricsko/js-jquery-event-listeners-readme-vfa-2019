@@ -10,6 +10,12 @@ function frameIt () {
   });
 }
 
+function pressIt () {
+  $('img').on('keydown',function () {
+    $(this).addClass('tasty');
+  });
+}
+
 $(document).ready(function(){
 
 // call functions here
