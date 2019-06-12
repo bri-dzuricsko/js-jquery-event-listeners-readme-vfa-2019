@@ -20,7 +20,7 @@ function pressIt() {
 
 function submitIt () {
   $('form').submit(function () {
-    return('Your form is going to be submitted now.');
+    alert('Your form is going to be submitted now.');
   });
 }
 
