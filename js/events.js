@@ -2,6 +2,8 @@
 
 $(document).ready(function(){
 
-// call functions here
+$('img').on('getIt', function(){
+  //actions you want to happen
+});
 
 });
