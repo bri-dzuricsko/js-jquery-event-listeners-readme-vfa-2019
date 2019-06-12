@@ -4,6 +4,12 @@ function getIt () {
   });
 }
 
+function frameIt () {
+  $('p').on('load',function () {
+    alert ('Hey!')
+  });
+}
+
 $(document).ready(function(){
 
 // call functions here
