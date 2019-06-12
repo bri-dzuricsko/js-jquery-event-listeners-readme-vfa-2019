@@ -18,6 +18,11 @@ function pressIt() {
   });
 }
 
+function submitIt () {
+  $('img').submit('load',function () {
+    return('Your form is going to be submitted now.');
+  });
+}
 
 $(document).ready(function(){
 
